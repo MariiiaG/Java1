@@ -16,6 +16,12 @@ public class Sem1_1 {
         LocalTime time = LocalTime.now(); // текущее время
         System.out.println("Как вас зовут ? ");
         String name = scanner.nextLine(); // считает строку полностью, в отл от scanner.Next - только первое слово
+        
+        // LocalTime time1 = LocalTime.of(11, 52); // задать каонкретное время для сравнения
+        // if (time.isBefore(time1)) {
+        //     System.out.println("Good Morning!");
+        // }
+        
         int hour = time.getHour();
         if (hour >= 5 && hour < 12){
             System.out.println("Дoброе утро, " + name + "!");
@@ -26,5 +32,6 @@ public class Sem1_1 {
         } else {
             System.out.println("Дoброй ночи, " + name + "!");
         }
+        scanner.close();
     }
 }
