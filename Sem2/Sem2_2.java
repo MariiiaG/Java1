@@ -13,7 +13,7 @@ public class Sem2_2 {
     }
     static String squeeze(String line) {
         int count = 1;
-        char[] chars = line.toCharArray();
+        char[] chars = line.toCharArray(); // split string into a char array
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = 1; i < chars.length; i ++) {
             if (chars[i] == chars[i-1]) {
