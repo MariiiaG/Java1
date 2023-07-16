@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-16T17:08:17.794247Z</date>
+  <millis>1689527297794</millis>
+  <nanos>247000</nanos>
+  <sequence>0</sequence>
+  <level>INFO</level>
+  <class>Java1.Sem2.Sem2_4</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Data saved successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-16T17:09:19.495658Z</date>
+  <millis>1689527359495</millis>
+  <nanos>658000</nanos>
+  <sequence>0</sequence>
+  <level>INFO</level>
+  <class>Java1.Sem2.Sem2_4</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Data saved successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-16T17:24:29.865381Z</date>
+  <millis>1689528269865</millis>
+  <nanos>381000</nanos>
+  <sequence>0</sequence>
+  <level>INFO</level>
+  <class>Java1.Sem2.Sem2_4</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Data saved successfully</message>
+</record>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-07-16T17:29:11.895709Z</date>
+  <millis>1689528551895</millis>
+  <nanos>709000</nanos>
+  <sequence>0</sequence>
+  <level>INFO</level>
+  <class>Java1.Sem2.Sem2_4</class>
+  <method>writeToFile</method>
+  <thread>1</thread>
+  <message>Data saved successfully</message>
+</record>
+</log>
+Jul 16, 2023 8:31:51 PM Java1.Sem2.Sem2_4 writeToFile
+INFO: Data saved successfully
+Jul 16, 2023 8:34:09 PM Java1.Sem2.Sem2_4 writeToFile
+INFO: Data saved successfully
+Jul 16, 2023 8:34:24 PM Java1.Sem2.Sem2_4 writeToFile
+INFO: Data saved successfully
