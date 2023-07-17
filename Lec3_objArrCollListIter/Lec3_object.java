@@ -7,7 +7,7 @@ package Java1.Lec3_objArrCollListIter;
 Иерархия типов – любой тип «ниже» Object’а
  */
 
-public class Lec3_mine {
+public class Lec3_object {
     // public static void main(String[] args) {
     //     Object o = 1; GetType(o); // java.lang.Integer
     //     o = 1.2; GetType(o); // java.lang.Double
