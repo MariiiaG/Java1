@@ -1,6 +1,6 @@
 package Java1.Lec3_objArrCollListIter;
 
-public class Lec3_arrays {
+public class Mine_arrays {
     // public static void main(String[] args) {
     //     int[] a = new int[] {1, 9}; // given an array with only 2 items inside
     //     int[] b = new int[3]; // we need to add another item -> create a new  array
