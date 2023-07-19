@@ -9,7 +9,7 @@ import java.util.List;
  * Пройти по списку, найти и удалить целые числа.
  */
 
-public class Sem3_3 {
+public class Sem3_3_removeInt_iterator {
     public static void main(String[] args) {
         List list = new ArrayList(); // if there's no <> with data type in List<> list, then it implies Object
         list.add(4);
@@ -41,6 +41,6 @@ public class Sem3_3 {
             if (object instanceof Integer) {
                 iterator.remove(); // removes the current element of the collection
             } // in this case we don't need to do i-- as in the method above ^
-        }
-    }
+        } // use Iterator when we need to go through all items without changing them. But ok to remove
+    } // we don't use indexes with iterator. For indexes use fori
 }

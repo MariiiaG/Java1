@@ -14,7 +14,7 @@ import java.util.List;
  * String s6 = new String(new char[]{'h', 'e', 'l', 'l', 'o'});
  */
 
-public class Sem3_1 {
+public class Sem3_1_equals {
     // public static void main(String[] args) {
     //     String s1 = "hello";
     //     String s2 = "hello";

@@ -8,7 +8,7 @@ import java.util.List;
  * Заполнить список десятью случайными числами.
  * ОТсортировать список методом sort() и вывести его на экран
  */
-public class Sem3_2 {
+public class Sem3_2_sortList {
     public static void main(String[] args) {
         // List<Integer> list = List.of(7, 5, 4, 5, 10); //can't change this list, can't sort either
         Integer[] arr = new Integer[]{5, 7, 0, 2, 6, 2}; //  created an array
