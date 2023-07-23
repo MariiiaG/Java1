@@ -9,7 +9,7 @@ import java.util.LinkedList;
  * Сравните с предыдущим
  */
 
-public class Sem4_1 {
+public class Sem4_1_arrayLAndLinkedL {
     public static void main(String[] args) {
         ArrayList listArr = new ArrayList<>();
         LinkedList listLink = new LinkedList<>();
