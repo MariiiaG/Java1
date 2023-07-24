@@ -1,5 +1,10 @@
 package Java1.Lec5;
 
+/*
+ * HashTable
+«Устаревший брат» коллекции HashMap, который не знает про null
+ */
+
 import java.util.*;
 
 public class Ex06_HashTable {
