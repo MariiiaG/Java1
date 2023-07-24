@@ -6,7 +6,7 @@ package Java1.Sem4;
  * size(), empty(), push(), peek(), pop()
  */
 
-public class Sem4_5 {
+public class Sem4_5_classStack {
     public static void main(String[] args) {
         MyStack stack = new MyStack();
         stack.push("1");
