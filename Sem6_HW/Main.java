@@ -109,13 +109,13 @@ public class Main {
                 System.out.printf("Which colour do you prefer (1 - Silver, 2 - White, 3 - Pink, 4 - Black) ? ");
                 int colour = scanner.nextInt();
                 if (colour == 1) {
-                    System.out.println(lt1.toString());
+                    System.out.println(lt1.toString() + "\n" + lt5.toString());
                 } else if (colour == 2) {
                     System.out.println(lt2.toString() + "\n" + lt6.toString());
                 } else if (colour == 3) {
-                    System.out.println(lt3.toString() + "\n" + lt4.toString() + "\n" + lt5.toString());
+                    System.out.println(lt3.toString());
                 } else if (colour == 4) {
-                    System.out.println(lt3.toString() + "\n" + lt4.toString() + "\n" + lt5.toString());
+                    System.out.println(lt4.toString());
                 } else 
                 System.out.println("Invalid entry");
             }
