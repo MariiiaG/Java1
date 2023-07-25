@@ -26,12 +26,12 @@ public class Cat {
 
     @Override
     public int hashCode() {
-        return name.hashCode() + 7*numPassport + 13*owner.hashCode();
-    }
+        return name.hashCode() + 7*numPassport + 13*owner.hashCode(); 
+    } // ^^ домножить на простое число, чтобы минимизировать возможность совпадения хэшкодов разных объектов
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj){
+        if (this == obj){ // == тут сравнивает именно ссылки на объекты
             return true;
         }
         if (!(obj instanceof Cat)){
