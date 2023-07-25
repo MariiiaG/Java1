@@ -1,5 +1,12 @@
 package Java1.Lec6;
 
+/*
+ * TreeSet
+● В основе HashMap.
+● Упорядочен по возрастанию.
+● null’ов быть не может.
+ */
+
 import java.util.*;
 
 public class Ex03_TreeSet {
@@ -12,5 +19,7 @@ public class Ex03_TreeSet {
         System.out.println(a.headSet(4)); // [1, 2, 3]
         System.out.println(a.tailSet(4)); // [4, 5, 6, 7]
         System.out.println(a.subSet(3, 5)); // [3, 4]
+        System.out.println(a.contains(1)); // true
+        System.out.println(a.contains(8)); // false
     }
 }
