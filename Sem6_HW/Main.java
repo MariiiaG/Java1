@@ -4,8 +4,6 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-import Java1.Sem6.Cat;
-
 /*
  *Подумать над структурой класса Ноутбук для магазина техники - выделить поля и методы. Реализовать в java.
 Создать множество ноутбуков.
