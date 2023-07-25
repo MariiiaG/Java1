@@ -64,17 +64,17 @@ public class Main {
             int selection = scanner.nextInt();
 
             if (selection == 1) { // sort by Brand
-                System.out.printf("What brand are you looking for ? ");
-                String brand = scanner.nextLine();
-                if (brand.equalsIgnoreCase("Acer")) {
+                System.out.printf("What brand are you looking for (1 - Acer, 2 - Asus, 3 - Apple, 4 - Razer, 5 - Dell) ? ");
+                int brand = scanner.nextInt();
+                if (brand == 1) {
                     System.out.println(lt1.toString());
-                } if (brand.equalsIgnoreCase("Asus")) {
+                } else if (brand == 2) {
                     System.out.println(lt2.toString() + "\n" + lt6.toString());
-                } if (brand.equalsIgnoreCase("Apple")) {
+                } else if (brand == 3) {
                     System.out.println(lt3.toString());
-                } if (brand.equalsIgnoreCase("Razer")) {
+                } else if (brand == 4) {
                     System.out.println(lt4.toString());
-                } if (brand.equalsIgnoreCase("Dell")) {
+                } else if (brand == 5) {
                     System.out.println(lt5.toString());
                 } else 
                     System.out.println("Sorry, brand not found");
@@ -91,7 +91,7 @@ public class Main {
                 } else if (ram == 24) {
                     System.out.println(lt5.toString());
                 } else 
-                System.out.println("No such laptop");
+                    System.out.println("No such laptop");
 
             } else if (selection == 3) { //sort by Price
                 System.out.printf("What is your price range (1 - below 100_000; 2 - 100_000 - 149_999; 3 - 150_000 and above) ? ");
@@ -103,7 +103,7 @@ public class Main {
                 } else if (price == 3) {
                     System.out.println(lt3.toString() + "\n" + lt4.toString() + "\n" + lt5.toString());
                 } else 
-                System.out.println("Invalid entry");
+                    System.out.println("Invalid entry");
 
             } else if (selection == 4) { //sort by Colour
                 System.out.printf("Which colour do you prefer (1 - Silver, 2 - White, 3 - Pink, 4 - Black) ? ");
@@ -117,7 +117,7 @@ public class Main {
                 } else if (colour == 4) {
                     System.out.println(lt4.toString());
                 } else 
-                System.out.println("Invalid entry");
+                    System.out.println("Invalid entry");
             }
     }
 }
