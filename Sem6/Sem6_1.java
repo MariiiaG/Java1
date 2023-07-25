@@ -16,9 +16,16 @@ public class Sem6_1 {
         Set<Integer> set1 = new HashSet<>(Arrays.asList(arr));
         Set<Integer> set2 = new LinkedHashSet<>(Arrays.asList(arr));
         Set<Integer> set3 = new TreeSet<>(Arrays.asList(arr));
+        
 
-        System.out.println(set1);
-        System.out.println(set2);
-        System.out.println(set3);
+        System.out.println(set1); // [1, 2, 3, 4, 5, 6]
+        System.out.println(set2); // [3, 1, 2, 4, 5, 6]
+        System.out.println(set3); // [1, 2, 3, 4, 5, 6]
+        set1.add(0);
+        System.out.println(set1); // [0, 1, 2, 3, 4, 5, 6]
+        set2.add(0);
+        System.out.println(set2); // [3, 1, 2, 4, 5, 6, 0]
+        set3.add(0);
+        System.out.println(set3); // [0, 1, 2, 3, 4, 5, 6]
     }
 }
